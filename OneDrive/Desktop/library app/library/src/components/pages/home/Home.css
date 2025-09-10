@@ -1,0 +1,64 @@
+.home {
+    width: 100%;
+}
+
+.home-container {
+    background-image: url(".../../../../../assets/header-image-2.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max(100%, 300px);
+    height: max(25vw, auto);
+}
+
+.home-header {
+
+    background-color: #22222290;
+    margin-left: auto;
+    width: 90%;
+    color: white;
+    padding-bottom: 80px;
+
+
+}
+
+.header-buttpns {
+    height: 35px;
+    display: flex;
+    gap: 10px;
+}
+.header-buttpns button{
+    height: 32px;
+    width: max(10.5vw,120px);
+    font-weight: 600;
+}
+.view-feauture button{
+    background-color: rgb(5, 44, 146);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.view-feauture button:hover{
+    background-color: rgb(14, 59, 174);
+}
+.crete-home button{
+    background-color: rgb(16, 201, 16);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.crete-home button:hover{
+    background-color: rgb(70, 237, 70);
+}
+
+
+.home-header span {
+    position: relative;
+    top: 120px;
+    font-size: max(2vw, 18px);
+}
+
+.home-header h1 {
+    margin-top: 150px;
+    width: 50%;
+}

@@ -1,0 +1,31 @@
+* {
+    text-decoration: none;
+
+}
+
+.home-section {
+    width: 100%;
+
+
+}
+
+.section {
+    background-color: rgb(244, 238, 238);
+    padding-top: 35px;
+    width: 90%;
+    margin: auto;
+}
+
+.section p {
+    text-align: center;
+    font-size: max(2vw, 12px);
+}
+
+
+
+
+@media (max-width:1050px) {
+    .section {
+        width: 100%;
+    }
+}

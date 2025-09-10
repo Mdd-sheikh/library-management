@@ -1,0 +1,222 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f5f3f3;
+}
+
+
+.create_library {
+    width: 100%;
+
+
+
+}
+
+.left-create-library {
+    padding: 5px;
+    width: 90%;
+    margin-left: auto;
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.left-libray-headline h2 {
+    font-size: max(2.5vw, 26px);
+    color: rgb(90, 90, 226);
+}
+
+.left-library-heading p {
+    font-size: max(0.8vw);
+    font-family: lucida grande;
+}
+
+.headline-hr {
+    background-color: rgb(154, 154, 154);
+    height: 2px solid;
+    border-bottom: none;
+}
+
+.inputs-fields {
+    width: 80%;
+    padding: 10px;
+
+}
+
+
+.library-items {
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    gap: 50px;
+
+}
+
+.name {
+    display: grid;
+    background-color: #f6f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+.name input {
+    height: 30px;
+    outline: none;
+    border: 1px solid#b1afaf;
+    width: max(30vw, 100px);
+}
+
+.name p {
+    margin: 0;
+    padding: 0;
+    font-size: max(0.8vw, 2px);
+}
+
+.email {
+    margin-top: 10px;
+    display: grid;
+    background-color: #f5f6f1;
+    width: 100%;
+    padding: 15px;
+}
+
+.email input {
+    height: 30px;
+    outline: none;
+    border: 1px solid #bebebe;
+    width: max(30vw, 100px);
+}
+
+.email p {
+    margin: 0;
+    padding: 0;
+    font-size: max(0.8vw, 2px);
+}
+
+.password {
+    padding: 15px;
+    margin-top: 10px;
+    display: grid;
+    background-color: #ebf0ee;
+    width: 100%;
+}
+
+.password input {
+    height: 30px;
+    outline: none;
+    border: 1px solid #b1afaf;
+    width: max(30vw, 100px);
+
+}
+
+.password p {
+    margin: 0;
+    padding: 0;
+    font-size: max(0.8vw, 2px);
+}
+
+.confirm-password {
+    padding: 15px;
+    margin-top: 10px;
+    display: grid;
+    background-color: #e5e6e7;
+    width: 100%;
+}
+
+.confirm-password input {
+    height: 30px;
+    outline: none;
+    border: 1px solid #e1f3e6;
+    width: max(30vw, 100px);
+}
+
+.confirm-password p {
+    margin: 0;
+    padding: 0;
+    font-size: max(0.8vw, 2px);
+}
+
+.submit-btn button {
+    width: max(15vw, 70px);
+    height: 30px;
+    background-color: rgb(31, 148, 20);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*  check */
+
+.lists {
+    width: 100%;
+}
+
+ul.marker {
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 10px;
+}
+
+ul.marker li::before {
+    content: '👉';
+    color: blue;
+
+}
+
+.marker li {
+    padding: 5px;
+    font-size: max(1vw, 15px);
+}
+
+.bottom-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bottom-buttons button {
+    background-color: rgb(10, 10, 239);
+    height: 25px;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/*'✅'*/
+@media (max-width:1050px) {
+    .library-items {
+        width: 100%;
+
+    }
+
+    .left-create-library {
+        justify-items: center;
+    }
+
+    .inputs-fields {
+        width: 100%;
+    }
+
+    .inputs-fields input {
+        width: 100%;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+}

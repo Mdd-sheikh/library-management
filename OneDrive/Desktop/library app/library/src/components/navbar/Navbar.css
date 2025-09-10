@@ -1,0 +1,84 @@
+.navbar-one {
+    width: 100%;
+    background-color: #156295;
+
+
+}
+
+.nav-items {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.left-nav img {
+    width: max(3vw, 30px);
+}
+
+.right-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.right-nav-create-btn button {
+    width: max(10vw, 70px);
+    font-size: max(1vw, 8px);
+    height: max(1.7vw, 20px);
+    border: none;
+    background-color: rgba(11, 121, 11, 0.758);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.right-nav-login-btn button {
+    width: max(5vw, 40px);
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    height: max(1.5vw, 15px);
+    font-size: max(1vw, 8px);
+    cursor: pointer;
+    color: white;
+}
+
+.right-nav-login-btn button:hover {
+    box-shadow: white 1px 1px 1px 1px;
+}
+
+.navbar-two {
+    width: 100%;
+    background-color: #1f8dd6;
+}
+
+.navbar-two-items {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-left: 80px;
+
+}
+
+.navbar-two-items div {
+    padding: 7px;
+}
+
+.navbar-two-items div:hover {
+    background-color: rgb(147, 147, 147);
+    border-radius: 5px;
+}
+
+.navbar-two-items button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: max(1vw, 5px);
+    cursor: pointer;
+}
+@media (max-width:1050px) {
+    .navbar-two-items{
+        margin-left: 20px;
+    }
+}

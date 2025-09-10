@@ -1,0 +1,127 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.book-nav {
+    width: 100%;
+    background-color: rgb(227, 229, 230);
+    padding: 30px;
+}
+
+.books-container {
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+.one-container h1 {
+    font-size: max(1vw, 16px);
+    margin-left: 20px;
+}
+
+.one-container h1:hover {
+    cursor: pointer;
+    color: rgb(65, 67, 68);
+
+}
+
+.section-one-book {
+
+    padding: 10px;
+    margin-left: auto;
+    justify-items: center;
+    gap: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+
+
+}
+
+.classic-books {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.classic-books:hover {
+    transform: scale(1.01);
+    border: 1px solid grey;
+
+
+}
+
+.section-one-book img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: max(15vw, 130px);
+    height: max(23vw, 260px);
+
+}
+
+.section-two-book {
+    padding: 10px;
+    margin-left: auto;
+    justify-items: center;
+    gap: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}
+
+.section-one-book button {
+    background-color: blue;
+    color: white;
+    width: max(15vw, 150px);
+    height: max(1.8vw, 20px);
+    border: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-two-book button {
+    background-color: blue;
+    color: white;
+    width: max(15vw, 150px);
+    height: max(1.8vw, 20px);
+    border: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-two-book img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: max(15vw, 130px);
+    height: max(23vw, 260px);
+}
+
+.section-one-book button:hover {
+    background-color: rgb(120, 120, 238);
+}
+
+.container-two {
+    width: 100%;
+}
+
+@media (max-width:1050px) {
+    .section-one-book {
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 0.5fr));
+        align-content: center;
+        justify-content: center;
+    }
+
+    .books-container {
+        width: 100%;
+        margin: auto;
+    }
+}

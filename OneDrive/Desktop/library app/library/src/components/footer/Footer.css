@@ -1,0 +1,48 @@
+*{
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    background-color: #1f8dd6;
+
+}
+
+.footer-items {
+    width: 90%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    
+
+}
+.left-footer-upper h4{
+    font-size: max(1.5vw);
+    cursor: pointer;
+    color: white;
+    
+
+}
+
+.left-footer-bottom {
+    display: flex;
+}
+
+.logos {
+    display: flex;
+    cursor: pointer;
+}
+
+.left-footer-upper p {
+    width: max(1vw, 2px);
+}
+
+.middle-footer {
+    display: grid;
+    cursor: pointer;
+}
+
+.right-footer {
+    display: grid;
+    cursor: pointer;
+}
